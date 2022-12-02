@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(224, 232, 255);
+  font-family: "Red Hat Display", sans-serif;
+}
+.container {
+  position: relative;
+  background-color: white;
+  height: 700px;
+  width: 450px;
+  border-radius: 36px;
+  margin: 6% auto;
+}
+.container .container-image img {
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+}
+.container .container-info .container-info-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.container .container-info .container-info-content h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.container .container-info .container-info-content p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+.container .container-info .container-info-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 350px;
+  border-radius: 36px;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.container .container-info .container-info-plan .price {
+  padding: 25px;
+}
+.container .container-info .container-info-plan .price p {
+  color: hsl(224, 23%, 55%);
+}
+.container .container-info .container-info-plan .price h2 {
+  color: hsl(223, 47%, 23%);
+}
+.container .container-info .container-info-plan .link {
+  color: hsl(223, 47%, 23%);
+}
+
+.container .container-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 50px;
+}
+
+.container .container-button button {
+  border: none;
+  color: #fff;
+  background-color: hsl(245, 75%, 52%);
+  text-align: center;
+  padding: 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 8px 8px 8px 0px hsl(224, 23%, 55%);
+}
+
+.container .container-button a {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 900;
+}
+
+.custom-shape-divider-top-1669905164 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1669905164 svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 430px;
+}
+
+.custom-shape-divider-top-1669905164 .shape-fill {
+  fill: hsl(225, 100%, 98%);
+}
